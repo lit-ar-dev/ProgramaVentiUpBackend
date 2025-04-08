@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "nombre": "Carlos López",
+        "numero_de_telefono": "3764112235"
+    },
+    {
+        "id": 1,
+        "nombre": "María González",
+        "numero_de_telefono": "3764112236"
+    },
+    {
+        "id": 2,
+        "nombre": "Javier Martínez",
+        "numero_de_telefono": "3764112237"
+    },
+    {
+        "id": 3,
+        "nombre": "Ana Fernández",
+        "numero_de_telefono": "3764112238"
+    },
+    {
+        "id": 4,
+        "nombre": "Luis Ramírez",
+        "numero_de_telefono": "3764112239"
+    },
+    {
+        "id": 5,
+        "nombre": "Elena Torres",
+        "numero_de_telefono": "3764112240"
+    }
+]

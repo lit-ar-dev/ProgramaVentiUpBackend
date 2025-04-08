@@ -1,0 +1,4 @@
+mariadb
+flask
+flask_restful
+python-dotenv

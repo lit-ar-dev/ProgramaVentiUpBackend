@@ -1,0 +1,2 @@
+class Ventas():
+    pass
