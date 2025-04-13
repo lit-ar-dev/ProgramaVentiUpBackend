@@ -1,10 +1,5 @@
 [
     {
-        "id": 0,
-        "nombre": "Carlos López",
-        "numero_de_telefono": "3764112235"
-    },
-    {
         "id": 1,
         "nombre": "María González",
         "numero_de_telefono": "3764112236"
@@ -28,5 +23,20 @@
         "id": 5,
         "nombre": "Elena Torres",
         "numero_de_telefono": "3764112240"
+    },
+    {
+        "nombre": "Carlos López",
+        "numero_de_telefono": "0",
+        "id": 6
+    },
+    {
+        "nombre": "Mónica Pérez",
+        "numero_de_telefono": "0",
+        "id": 7
+    },
+    {
+        "nombre": "Marcos Arevalos",
+        "numero_de_telefono": "0",
+        "id": 8
     }
 ]

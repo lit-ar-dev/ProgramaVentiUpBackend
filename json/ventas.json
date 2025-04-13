@@ -1,1 +1,302 @@
-[]
+[
+    {
+        "id": 0,
+        "fecha": "2025-03-24T17:51:00",
+        "detalle_venta": [
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200,
+                "cantidad": 2,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "lote": "A12"
+            },
+            {
+                "codigo_de_producto": "555",
+                "marca": "Genérica",
+                "descripcion": "Arroz",
+                "precio": 500,
+                "cantidad": 27.4,
+                "tipo_de_unidad": "kg",
+                "tipo_de_producto": "Por peso",
+                "lote": "B33"
+            }
+        ],
+        "metodo_de_pago": "Efectivo",
+        "importe_total": 16100,
+        "cliente": "Leeroy Jenkins",
+        "cajero": "Josué Tecce"
+    },
+    {
+        "id": 1,
+        "fecha": "2025-03-25T10:15:00",
+        "detalle_venta": [
+            {
+                "codigo_de_producto": "444",
+                "marca": "Genérica",
+                "descripcion": "Chocolate",
+                "precio": 5000,
+                "cantidad": 1,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "lote": "C11"
+            },
+            {
+                "codigo_de_producto": "789",
+                "marca": "Arcor",
+                "descripcion": "Barra de cereal/Frutos del bosque",
+                "precio": 600,
+                "cantidad": 6.17,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Por peso",
+                "lote": "C12"
+            }
+        ],
+        "metodo_de_pago": "Tarjeta",
+        "importe_total": 8702,
+        "cliente": "Carlos López",
+        "cajero": "Lucía Vázquez"
+    },
+    {
+        "id": 2,
+        "fecha": "2025-03-25T11:45:00",
+        "detalle_venta": [
+            {
+                "codigo_de_producto": "789",
+                "marca": "Arcor",
+                "descripcion": "Barra de cereal/Frutos del bosque",
+                "precio": 600,
+                "cantidad": 5,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Por peso",
+                "lote": "D09"
+            },
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200,
+                "cantidad": 2,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "lote": "D16"
+            }
+        ],
+        "metodo_de_pago": "Efectivo",
+        "importe_total": 5400,
+        "cliente": "María González",
+        "cajero": "Josué Tecce"
+    },
+    {
+        "id": 3,
+        "fecha": "2025-03-25T13:22:00",
+        "detalle_venta": [
+            {
+                "codigo_de_producto": "102",
+                "marca": "Aguila",
+                "descripcion": "Chocolate amargo",
+                "precio": 5000,
+                "cantidad": 2,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "lote": "E22"
+            },
+            {
+                "codigo_de_producto": "555",
+                "marca": "Genérica",
+                "descripcion": "Arroz",
+                "precio": 500,
+                "cantidad": 6,
+                "tipo_de_unidad": "kg",
+                "tipo_de_producto": "Por peso",
+                "lote": "E12"
+            }
+        ],
+        "metodo_de_pago": "Mercado Pago",
+        "importe_total": 13000,
+        "cliente": "Javier Martínez",
+        "cajero": "Lucía Vázquez"
+    },
+    {
+        "id": 4,
+        "fecha": "2025-03-26T09:05:00",
+        "detalle_venta": [
+            {
+                "codigo_de_producto": "444",
+                "marca": "Genérica",
+                "descripcion": "Chocolate",
+                "precio": 5000,
+                "cantidad": 1,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "lote": "Z18"
+            }
+        ],
+        "metodo_de_pago": "Tarjeta",
+        "importe_total": 5000,
+        "cliente": "Ana Fernández",
+        "cajero": "Tomás Herrera"
+    },
+    {
+        "id": 5,
+        "fecha": "2025-03-26T16:30:00",
+        "detalle_venta": [
+            {
+                "codigo_de_producto": "789",
+                "marca": "Arcor",
+                "descripcion": "Barra de cereal/Frutos del bosque",
+                "precio": 600,
+                "cantidad": 4,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Por peso",
+                "lote": "F01"
+            },
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200,
+                "cantidad": 3,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "lote": "F02"
+            }
+        ],
+        "metodo_de_pago": "Efectivo",
+        "importe_total": 6000,
+        "cliente": "Luis Ramírez",
+        "cajero": "Josué Tecce"
+    },
+    {
+        "id": 6,
+        "fecha": "2025-03-26T18:15:00",
+        "detalle_venta": [
+            {
+                "codigo_de_producto": "102",
+                "marca": "Aguila",
+                "descripcion": "Chocolate amargo",
+                "precio": 5000,
+                "cantidad": 3,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "lote": "G91"
+            },
+            {
+                "codigo_de_producto": "555",
+                "marca": "Genérica",
+                "descripcion": "Arroz",
+                "precio": 500,
+                "cantidad": 2.5,
+                "tipo_de_unidad": "kg",
+                "tipo_de_producto": "Por peso",
+                "lote": "G10"
+            }
+        ],
+        "metodo_de_pago": "Tarjeta",
+        "importe_total": 16250,
+        "cliente": "Elena Torres",
+        "cajero": "Lucía Vázquez"
+    },
+    {
+        "id": 7,
+        "fecha": "2025-03-27T12:10:00",
+        "detalle_venta": [
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200,
+                "cantidad": 2,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "lote": "H05"
+            },
+            {
+                "codigo_de_producto": "555",
+                "marca": "Genérica",
+                "descripcion": "Arroz",
+                "precio": 500,
+                "cantidad": 4,
+                "tipo_de_unidad": "kg",
+                "tipo_de_producto": "Por peso",
+                "lote": "H21"
+            }
+        ],
+        "metodo_de_pago": "Mercado Pago",
+        "importe_total": 4400,
+        "cliente": "Carlos López",
+        "cajero": "Tomás Herrera"
+    },
+    {
+        "id": 8,
+        "fecha": "2025-03-27T15:45:00",
+        "detalle_venta": [
+            {
+                "codigo_de_producto": "321",
+                "marca": "Bon o bon",
+                "descripcion": "Bombón de chocolate * 800g",
+                "precio": 19000,
+                "cantidad": 1,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "lote": "C08"
+            }
+        ],
+        "metodo_de_pago": "Efectivo",
+        "importe_total": 19000,
+        "cliente": "Ana Fernández",
+        "cajero": "Josué Tecce"
+    },
+    {
+        "id": 9,
+        "fecha": "2025-03-28T10:50:00",
+        "detalle_venta": [
+            {
+                "codigo_de_producto": "444",
+                "marca": "Genérica",
+                "descripcion": "Chocolate",
+                "precio": 5000,
+                "cantidad": 2,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "lote": "Z10"
+            }
+        ],
+        "metodo_de_pago": "Tarjeta",
+        "importe_total": 10000,
+        "cliente": "Luis Ramírez",
+        "cajero": "Lucía Vázquez"
+    },
+    {
+        "id": 10,
+        "fecha": "2025-03-28T17:20:00",
+        "detalle_venta": [
+            {
+                "codigo_de_producto": "789",
+                "marca": "Arcor",
+                "descripcion": "Barra de cereal/Frutos del bosque",
+                "precio": 600,
+                "cantidad": 5,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Por peso",
+                "lote": "F20"
+            },
+            {
+                "codigo_de_producto": "102",
+                "marca": "Aguila",
+                "descripcion": "Chocolate amargo",
+                "precio": 5000,
+                "cantidad": 1,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "lote": "D02"
+            }
+        ],
+        "metodo_de_pago": "Efectivo",
+        "importe_total": 8000,
+        "cliente": "Javier Martínez",
+        "cajero": "Tomás Herrera"
+    }
+]

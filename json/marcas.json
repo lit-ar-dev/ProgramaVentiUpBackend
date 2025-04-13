@@ -18,5 +18,9 @@
     {
         "nombre": "Genérica",
         "id": 4
+    },
+    {
+        "nombre": "Test 1",
+        "id": 5
     }
 ]
