@@ -20,18 +20,6 @@ def main():
     env = os.getenv("ENV", "dev")
 
     if env == "dev":
-        # Clientes
-        api.add_resource(
-            type("ClientesCollection", (CollectionResource,), {}), 
-            "/clientes",
-            resource_class_args=("clientes",)
-        )
-        api.add_resource(
-            type("ClientesItem", (ItemResource,), {}), 
-            "/clientes/<int:id>",
-            resource_class_args=("clientes",)
-        )
-
         # Productos
         api.add_resource(
             type("ProductosCollection", (CollectionResource,), {}), 
@@ -80,6 +68,42 @@ def main():
             type("MarcasItem", (ItemResource,), {}), 
             "/marcas/<int:id>",
             resource_class_args=("marcas",)
+        )
+
+        # Ventas
+        api.add_resource(
+            type("VentasCollection", (CollectionResource,), {}), 
+            "/ventas",
+            resource_class_args=("ventas",)
+        )
+        api.add_resource(
+            type("VentasItem", (ItemResource,), {}), 
+            "/ventas/<int:id>",
+            resource_class_args=("ventas",)
+        )
+
+        # Métodos de Pago
+        api.add_resource(
+            type("MetodosDePagoCollection", (CollectionResource,), {}), 
+            "/metodos_de_pago",
+            resource_class_args=("metodos_de_pago",)
+        )
+        api.add_resource(
+            type("MetodosDePagoItem", (ItemResource,), {}), 
+            "/metodos_de_pago/<int:id>",
+            resource_class_args=("metodos_de_pago",)
+        )
+
+        # Clientes
+        api.add_resource(
+            type("ClientesCollection", (CollectionResource,), {}), 
+            "/clientes",
+            resource_class_args=("clientes",)
+        )
+        api.add_resource(
+            type("ClientesItem", (ItemResource,), {}), 
+            "/clientes/<int:id>",
+            resource_class_args=("clientes",)
         )
 
     # ==========================
