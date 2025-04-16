@@ -4,7 +4,7 @@
         "id": 2,
         "marca": "Arcor",
         "descripcion": "Barra de cereal/Frutos del bosque",
-        "tipo_de_producto": "Por peso",
+        "tipo_de_producto": "Unitario",
         "tipo_de_unidad": "Unidad",
         "precio": "600"
     },

@@ -1,1 +1,100 @@
-[]
+[
+    {
+        "id": 0,
+        "codigo_de_producto": "789",
+        "fecha_de_inicio": "2023-01-01",
+        "fecha_de_fin": "2023-06-30",
+        "precio": 10.99
+    },
+    {
+        "id": 1,
+        "codigo_de_producto": "789",
+        "fecha_de_inicio": "2023-07-01",
+        "fecha_de_fin": "2024-05-31",
+        "precio": 250
+    },
+    {
+        "id": 2,
+        "codigo_de_producto": "789",
+        "fecha_de_inicio": "2024-06-01",
+        "fecha_de_fin": null,
+        "precio": 600
+    },
+    {
+        "id": 3,
+        "codigo_de_producto": "321",
+        "fecha_de_inicio": "2023-01-01",
+        "fecha_de_fin": "2023-12-31",
+        "precio": 15000
+    },
+    {
+        "id": 4,
+        "codigo_de_producto": "321",
+        "fecha_de_inicio": "2024-01-01",
+        "fecha_de_fin": null,
+        "precio": 19000
+    },
+    {
+        "id": 5,
+        "codigo_de_producto": "444",
+        "fecha_de_inicio": "2022-06-01",
+        "fecha_de_fin": "2023-12-31",
+        "precio": 3500
+    },
+    {
+        "id": 6,
+        "codigo_de_producto": "444",
+        "fecha_de_inicio": "2024-01-01",
+        "fecha_de_fin": null,
+        "precio": 5000
+    },
+    {
+        "id": 7,
+        "codigo_de_producto": "111",
+        "fecha_de_inicio": "2023-03-01",
+        "fecha_de_fin": "2023-10-15",
+        "precio": 800
+    },
+    {
+        "id": 8,
+        "codigo_de_producto": "111",
+        "fecha_de_inicio": "2023-10-16",
+        "fecha_de_fin": "2024-03-31",
+        "precio": 1000
+    },
+    {
+        "id": 9,
+        "codigo_de_producto": "111",
+        "fecha_de_inicio": "2024-04-01",
+        "fecha_de_fin": null,
+        "precio": 1200
+    },
+    {
+        "id": 10,
+        "codigo_de_producto": "555",
+        "fecha_de_inicio": "2023-05-01",
+        "fecha_de_fin": "2024-01-31",
+        "precio": 450
+    },
+    {
+        "id": 11,
+        "codigo_de_producto": "555",
+        "fecha_de_inicio": "2024-02-01",
+        "fecha_de_fin": null,
+        "precio": 500
+    },
+    {
+        "id": 12,
+        "codigo_de_producto": "102",
+        "fecha_de_inicio": "2023-02-15",
+        "fecha_de_fin": "2023-11-30",
+        "precio": 4000
+    },
+    {
+        "id": 13,
+        "codigo_de_producto": "102",
+        "fecha_de_inicio": "2023-12-01",
+        "fecha_de_fin": null,
+        "precio": 5000
+    }
+]

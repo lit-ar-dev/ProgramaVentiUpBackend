@@ -1,0 +1,56 @@
+[
+    {
+        "id": 0,
+        "codigo_de_producto": "789",
+        "existencia": 50,
+        "tipo_de_unidad": "Unidad",
+        "fecha_de_vencimiento": "2025-06-30",
+        "estado": "En stock",
+        "ubicacion": "Almacén Central"
+    },
+    {
+        "id": 1,
+        "codigo_de_producto": "321",
+        "existencia": 0,
+        "tipo_de_unidad": "Unidad",
+        "fecha_de_vencimiento": "2024-05-15",
+        "estado": "Sin stock",
+        "ubicacion": "Bodega Norte"
+    },
+    {
+        "id": 2,
+        "codigo_de_producto": "444",
+        "existencia": 20,
+        "tipo_de_unidad": "Unidad",
+        "fecha_de_vencimiento": "2023-03-10",
+        "estado": "Vencido",
+        "ubicacion": "Depósito Sur"
+    },
+    {
+        "id": 3,
+        "codigo_de_producto": "111",
+        "existencia": 10,
+        "tipo_de_unidad": "Unidad",
+        "fecha_de_vencimiento": "2025-01-30",
+        "estado": "Por vencer",
+        "ubicacion": "Almacén Central"
+    },
+    {
+        "id": 4,
+        "codigo_de_producto": "555",
+        "existencia": 15,
+        "tipo_de_unidad": "kg",
+        "fecha_de_vencimiento": "2025-12-31",
+        "estado": "En stock",
+        "ubicacion": "Bodega Central"
+    },
+    {
+        "id": 5,
+        "codigo_de_producto": "102",
+        "existencia": 30,
+        "tipo_de_unidad": "Unidad",
+        "fecha_de_vencimiento": "2025-11-20",
+        "estado": "En stock",
+        "ubicacion": "Depósito Norte"
+    }
+]
