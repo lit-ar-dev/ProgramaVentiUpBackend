@@ -106,6 +106,42 @@ def main():
             resource_class_args=("clientes",)
         )
 
+        # Precios
+        api.add_resource(
+            type("PreciosCollection", (CollectionResource,), {}), 
+            "/precios",
+            resource_class_args=("precios",)
+        )
+        api.add_resource(
+            type("PreciosItem", (ItemResource,), {}), 
+            "/precios/<int:id>",
+            resource_class_args=("precios",)
+        )
+
+        # Stock
+        api.add_resource(
+            type("StockCollection", (CollectionResource,), {}), 
+            "/stock",
+            resource_class_args=("stock",)
+        )
+        api.add_resource(
+            type("StockItem", (ItemResource,), {}), 
+            "/stock/<int:id>",
+            resource_class_args=("stock",)
+        )
+
+        # Estados de Lote
+        api.add_resource(
+            type("EstadosDeLoteCollection", (CollectionResource,), {}), 
+            "/estados_de_lote",
+            resource_class_args=("estados_de_lote",)
+        )
+        api.add_resource(
+            type("EstadosDeLoteItem", (ItemResource,), {}), 
+            "/estados_de_lote/<int:id>",
+            resource_class_args=("estados_de_lote",)
+        )
+
     # ==========================
     # Ejecutar la aplicación
     # ==========================
