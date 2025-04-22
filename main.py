@@ -142,6 +142,18 @@ def main():
             resource_class_args=("estados_de_lote",)
         )
 
+        # Ubicaciones
+        api.add_resource(
+            type("Ubications", (CollectionResource,), {}), 
+            "/ubicaciones",
+            resource_class_args=("ubicaciones",)
+        )
+        api.add_resource(
+            type("UbicacionesDeLoteItem", (ItemResource,), {}), 
+            "/ubicaciones/<int:id>",
+            resource_class_args=("ubicaciones",)
+        )
+
     # ==========================
     # Ejecutar la aplicación
     # ==========================
