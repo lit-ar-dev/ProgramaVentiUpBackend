@@ -96,5 +96,19 @@
         "fecha_de_inicio": "2023-12-01",
         "fecha_de_fin": null,
         "precio": 5000
+    },
+    {
+        "codigo_de_producto": "112",
+        "precio": "100",
+        "fecha_de_inicio": "2025-04-29",
+        "fecha_de_fin": null,
+        "id": 14
+    },
+    {
+        "codigo_de_producto": "103",
+        "precio": "400",
+        "fecha_de_inicio": "2025-04-29",
+        "fecha_de_fin": null,
+        "id": 15
     }
 ]

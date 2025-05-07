@@ -2,7 +2,7 @@
     {
         "id": 0,
         "fecha": "2025-03-24T17:51:00",
-        "detalle_venta": [
+        "detalle": [
             {
                 "codigo_de_producto": "111",
                 "marca": "Arcor",
@@ -11,7 +11,7 @@
                 "cantidad": 2,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Unitario",
-                "lote": "A12"
+                "codigo_de_lote": "A12"
             },
             {
                 "codigo_de_producto": "555",
@@ -21,7 +21,7 @@
                 "cantidad": 27.4,
                 "tipo_de_unidad": "kg",
                 "tipo_de_producto": "Por peso",
-                "lote": "B33"
+                "codigo_de_lote": "B33"
             }
         ],
         "metodo_de_pago": "Efectivo",
@@ -32,7 +32,7 @@
     {
         "id": 1,
         "fecha": "2025-03-25T10:15:00",
-        "detalle_venta": [
+        "detalle": [
             {
                 "codigo_de_producto": "444",
                 "marca": "Genérica",
@@ -41,7 +41,7 @@
                 "cantidad": 1,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Unitario",
-                "lote": "C11"
+                "codigo_de_lote": "C11"
             },
             {
                 "codigo_de_producto": "789",
@@ -51,7 +51,7 @@
                 "cantidad": 6.17,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Por peso",
-                "lote": "C12"
+                "codigo_de_lote": "C12"
             }
         ],
         "metodo_de_pago": "Tarjeta",
@@ -62,7 +62,7 @@
     {
         "id": 2,
         "fecha": "2025-03-25T11:45:00",
-        "detalle_venta": [
+        "detalle": [
             {
                 "codigo_de_producto": "789",
                 "marca": "Arcor",
@@ -71,7 +71,7 @@
                 "cantidad": 5,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Por peso",
-                "lote": "D09"
+                "codigo_de_lote": "D09"
             },
             {
                 "codigo_de_producto": "111",
@@ -81,7 +81,7 @@
                 "cantidad": 2,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Unitario",
-                "lote": "D16"
+                "codigo_de_lote": "D16"
             }
         ],
         "metodo_de_pago": "Efectivo",
@@ -92,7 +92,7 @@
     {
         "id": 3,
         "fecha": "2025-03-25T13:22:00",
-        "detalle_venta": [
+        "detalle": [
             {
                 "codigo_de_producto": "102",
                 "marca": "Aguila",
@@ -101,7 +101,7 @@
                 "cantidad": 2,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Unitario",
-                "lote": "E22"
+                "codigo_de_lote": "E22"
             },
             {
                 "codigo_de_producto": "555",
@@ -111,7 +111,7 @@
                 "cantidad": 6,
                 "tipo_de_unidad": "kg",
                 "tipo_de_producto": "Por peso",
-                "lote": "E12"
+                "codigo_de_lote": "E12"
             }
         ],
         "metodo_de_pago": "Mercado Pago",
@@ -122,7 +122,7 @@
     {
         "id": 4,
         "fecha": "2025-03-26T09:05:00",
-        "detalle_venta": [
+        "detalle": [
             {
                 "codigo_de_producto": "444",
                 "marca": "Genérica",
@@ -131,7 +131,7 @@
                 "cantidad": 1,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Unitario",
-                "lote": "Z18"
+                "codigo_de_lote": "Z18"
             }
         ],
         "metodo_de_pago": "Tarjeta",
@@ -142,7 +142,7 @@
     {
         "id": 5,
         "fecha": "2025-03-26T16:30:00",
-        "detalle_venta": [
+        "detalle": [
             {
                 "codigo_de_producto": "789",
                 "marca": "Arcor",
@@ -151,7 +151,7 @@
                 "cantidad": 4,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Por peso",
-                "lote": "F01"
+                "codigo_de_lote": "F01"
             },
             {
                 "codigo_de_producto": "111",
@@ -161,7 +161,7 @@
                 "cantidad": 3,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Unitario",
-                "lote": "F02"
+                "codigo_de_lote": "F02"
             }
         ],
         "metodo_de_pago": "Efectivo",
@@ -172,7 +172,7 @@
     {
         "id": 6,
         "fecha": "2025-03-26T18:15:00",
-        "detalle_venta": [
+        "detalle": [
             {
                 "codigo_de_producto": "102",
                 "marca": "Aguila",
@@ -181,7 +181,7 @@
                 "cantidad": 3,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Unitario",
-                "lote": "G91"
+                "codigo_de_lote": "G91"
             },
             {
                 "codigo_de_producto": "555",
@@ -191,7 +191,7 @@
                 "cantidad": 2.5,
                 "tipo_de_unidad": "kg",
                 "tipo_de_producto": "Por peso",
-                "lote": "G10"
+                "codigo_de_lote": "G10"
             }
         ],
         "metodo_de_pago": "Tarjeta",
@@ -202,7 +202,7 @@
     {
         "id": 7,
         "fecha": "2025-03-27T12:10:00",
-        "detalle_venta": [
+        "detalle": [
             {
                 "codigo_de_producto": "111",
                 "marca": "Arcor",
@@ -211,7 +211,7 @@
                 "cantidad": 2,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Unitario",
-                "lote": "H05"
+                "codigo_de_lote": "H05"
             },
             {
                 "codigo_de_producto": "555",
@@ -221,7 +221,7 @@
                 "cantidad": 4,
                 "tipo_de_unidad": "kg",
                 "tipo_de_producto": "Por peso",
-                "lote": "H21"
+                "codigo_de_lote": "H21"
             }
         ],
         "metodo_de_pago": "Mercado Pago",
@@ -232,7 +232,7 @@
     {
         "id": 8,
         "fecha": "2025-03-27T15:45:00",
-        "detalle_venta": [
+        "detalle": [
             {
                 "codigo_de_producto": "321",
                 "marca": "Bon o bon",
@@ -241,7 +241,7 @@
                 "cantidad": 1,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Unitario",
-                "lote": "C08"
+                "codigo_de_lote": "C08"
             }
         ],
         "metodo_de_pago": "Efectivo",
@@ -252,7 +252,7 @@
     {
         "id": 9,
         "fecha": "2025-03-28T10:50:00",
-        "detalle_venta": [
+        "detalle": [
             {
                 "codigo_de_producto": "444",
                 "marca": "Genérica",
@@ -261,7 +261,7 @@
                 "cantidad": 2,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Unitario",
-                "lote": "Z10"
+                "codigo_de_lote": "Z10"
             }
         ],
         "metodo_de_pago": "Tarjeta",
@@ -272,7 +272,7 @@
     {
         "id": 10,
         "fecha": "2025-03-28T17:20:00",
-        "detalle_venta": [
+        "detalle": [
             {
                 "codigo_de_producto": "789",
                 "marca": "Arcor",
@@ -281,7 +281,7 @@
                 "cantidad": 5,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Por peso",
-                "lote": "F20"
+                "codigo_de_lote": "F20"
             },
             {
                 "codigo_de_producto": "102",
@@ -291,12 +291,232 @@
                 "cantidad": 1,
                 "tipo_de_unidad": "Unidad",
                 "tipo_de_producto": "Unitario",
-                "lote": "D02"
+                "codigo_de_lote": "D02"
             }
         ],
         "metodo_de_pago": "Efectivo",
         "importe_total": 8000,
         "cliente": "Javier Martínez",
         "cajero": "Tomás Herrera"
+    },
+    {
+        "fecha": "2025-05-05T20:56:56",
+        "detalle": [
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200.0,
+                "cantidad": 10.0,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "codigo_de_lote": "A12"
+            }
+        ],
+        "metodo_de_pago": "Tarjeta",
+        "importe_total": 12000.0,
+        "cliente": "Javier Martínez",
+        "cajero": "Josué Tecce",
+        "id": 11
+    },
+    {
+        "fecha": "2025-05-05T21:19:05",
+        "detalle": [
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200.0,
+                "cantidad": 5.0,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "codigo_de_lote": "A12"
+            }
+        ],
+        "metodo_de_pago": "Tarjeta",
+        "importe_total": 6000.0,
+        "cliente": "Carlos López",
+        "cajero": "Josué Tecce",
+        "id": 12
+    },
+    {
+        "fecha": "2025-05-05T21:21:13",
+        "detalle": [
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200.0,
+                "cantidad": 5.0,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "codigo_de_lote": "A12"
+            }
+        ],
+        "metodo_de_pago": "Tarjeta",
+        "importe_total": 6000.0,
+        "cliente": "Carlos López",
+        "cajero": "Josué Tecce",
+        "id": 13
+    },
+    {
+        "fecha": "2025-05-05T23:17:12",
+        "detalle": [
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200.0,
+                "cantidad": 5.0,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "codigo_de_lote": "A12"
+            }
+        ],
+        "metodo_de_pago": "Tarjeta",
+        "importe_total": 6000.0,
+        "cliente": "Javier Martínez",
+        "cajero": "Josué Tecce",
+        "id": 16
+    },
+    {
+        "fecha": "2025-05-06T14:08:52",
+        "detalle": [
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200.0,
+                "cantidad": 2.0,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "codigo_de_lote": "D16"
+            },
+            {
+                "codigo_de_producto": "102",
+                "marca": "Aguila",
+                "descripcion": "Chocolate amargo",
+                "precio": 5000.0,
+                "cantidad": 1.0,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "codigo_de_lote": "E22"
+            }
+        ],
+        "metodo_de_pago": "Efectivo",
+        "importe_total": 7400.0,
+        "cliente": "Mónica Pérez",
+        "cajero": "Josué Tecce",
+        "id": 17
+    },
+    {
+        "fecha": "2025-05-06T22:33:27",
+        "detalle": [
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200.0,
+                "cantidad": 1.0,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "codigo_de_lote": "F02"
+            }
+        ],
+        "metodo_de_pago": "Transferencia",
+        "importe_total": 1200.0,
+        "cliente": "Javier Martínez",
+        "cajero": "Tomás Herrera",
+        "id": 18
+    },
+    {
+        "fecha": "2025-05-06T22:36:58",
+        "detalle": [
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200.0,
+                "cantidad": 5.0,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "codigo_de_lote": "F02"
+            },
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200.0,
+                "cantidad": 4.0,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "codigo_de_lote": "H05"
+            }
+        ],
+        "metodo_de_pago": "Mercado Pago",
+        "importe_total": 10800.0,
+        "cliente": "María González",
+        "cajero": "Tomás Herrera",
+        "id": 19
+    },
+    {
+        "fecha": "2025-05-06T22:48:09",
+        "detalle": [
+            {
+                "codigo_de_producto": "555",
+                "marca": "Genérica",
+                "descripcion": "Arroz",
+                "precio": 500.0,
+                "cantidad": 0.1,
+                "tipo_de_unidad": "kg",
+                "tipo_de_producto": "Por peso",
+                "codigo_de_lote": "G10"
+            }
+        ],
+        "metodo_de_pago": "Mercado Pago",
+        "importe_total": 50.0,
+        "cliente": "Luis Ramírez",
+        "cajero": "Tomás Herrera",
+        "id": 20
+    },
+    {
+        "fecha": "2025-05-06T22:50:17",
+        "detalle": [
+            {
+                "codigo_de_producto": "111",
+                "marca": "Arcor",
+                "descripcion": "Gomitas",
+                "precio": 1200.0,
+                "cantidad": 1.0,
+                "tipo_de_unidad": "Unidad",
+                "tipo_de_producto": "Unitario",
+                "codigo_de_lote": "H05"
+            }
+        ],
+        "metodo_de_pago": "Tarjeta",
+        "importe_total": 1200.0,
+        "cliente": "Luis Ramírez",
+        "cajero": "Tomás Herrera",
+        "id": 21
+    },
+    {
+        "fecha": "2025-05-06T22:54:10",
+        "detalle": [
+            {
+                "codigo_de_producto": "555",
+                "marca": "Genérica",
+                "descripcion": "Arroz",
+                "precio": 500.0,
+                "cantidad": 0.1,
+                "tipo_de_unidad": "kg",
+                "tipo_de_producto": "Por peso",
+                "codigo_de_lote": "G10"
+            }
+        ],
+        "metodo_de_pago": "Tarjeta",
+        "importe_total": 50.0,
+        "cliente": "Luis Ramírez",
+        "cajero": "Tomás Herrera",
+        "id": 22
     }
 ]
