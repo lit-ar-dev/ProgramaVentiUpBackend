@@ -4,6 +4,7 @@ from flask import Flask
 from flask_restful import Api
 from scripts.resources.collection import CollectionResource
 from scripts.resources.item import ItemResource
+load_dotenv(override=True)
 
 
 def main():
@@ -16,9 +17,8 @@ def main():
     # ==========================
     # Registro de Rutas
     # ==========================
-    load_dotenv()
     env = os.getenv("ENV", "dev")
-
+    
     if env == "dev":
         # Productos
         api.add_resource(
@@ -126,8 +126,8 @@ def main():
         )
         api.add_resource(
             type("StockItem", (ItemResource,), {}), 
-            "/stock/<int:id>",
-            resource_class_args=("stock",)
+            "/stock/<string:id>",
+            resource_class_args=("stock", "codigo_de_lote")
         )
 
         # Estados de Lote
