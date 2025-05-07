@@ -34,9 +34,9 @@ class JSONDataStore(DataStoreInterface):
 
     def get(self, resource: str, id: dict):
         items: list[dict] = self.data.get(resource, [])
-        id_field, id = next(iter(id.items()))
+        id_field, id_value = next(iter(id.items()))
         for item in items:
-            if int(item.get(id_field)) == id:
+            if str(item.get(id_field)) == str(id_value):
                 return item
         return None
 
@@ -51,9 +51,9 @@ class JSONDataStore(DataStoreInterface):
 
     def update(self, resource: str, id: dict, new_data: dict):
         items: list[dict] = self.data.get(resource, [])
-        id_field, id = next(iter(id.items()))
+        id_field, id_value = next(iter(id.items()))
         for item in items:
-            if int(item.get(id_field)) == id:
+            if str(item.get(id_field)) == str(id_value):
                 item.update(new_data)
                 self._save_resource(resource)
                 return item
@@ -61,9 +61,9 @@ class JSONDataStore(DataStoreInterface):
 
     def delete(self, resource: str, id: dict):
         items: list[dict] = self.data.get(resource, [])
-        id_field, id = next(iter(id.items()))
+        id_field, id_value = next(iter(id.items()))
         for index, item in enumerate(items):
-            if int(item.get(id_field)) == id:
+            if str(item.get(id_field)) == str(id_value):
                 del items[index]
                 self._save_resource(resource)
                 return True
