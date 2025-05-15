@@ -127,7 +127,7 @@ def main():
         api.add_resource(
             type("StockItem", (ItemResource,), {}), 
             "/stock/<string:id>",
-            resource_class_args=("stock", "id")
+            resource_class_args=("stock", "codigo_de_lote")
         )
 
         # Estados de Lote
