@@ -22,3 +22,10 @@ class LoteRead(LoteBase):
 
 class LoteUpdate(LoteBase):
     codigo_de_producto: str
+
+class LoteCode(BaseModel):
+    id: int
+    codigo_de_lote: str
+
+    class Config:
+        from_attributes = True

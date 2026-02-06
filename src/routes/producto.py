@@ -3,6 +3,7 @@ from sqlalchemy.orm import Session
 from typing import List
 from crud.producto import (
     delete_producto,
+    read_lotes_by_producto_id,
     read_productos,
     read_producto_by_id,
     read_producto_by_codigo,
@@ -10,8 +11,9 @@ from crud.producto import (
     update_producto
 )
 from dependency import get_db
+from schema.lote import LoteCode
 from schema.producto import ProductoCreate, ProductoRead, ProductoUpdate
-from sqlalchemy.exc import SQLAlchemyError
+from sqlalchemy.exc import NoResultFound, SQLAlchemyError
 
 
 router = APIRouter()
@@ -49,6 +51,20 @@ def read_producto_by_codigo_endpoint(codigo: str, db: Session = Depends(get_db))
         return read_producto_by_codigo(db, codigo)
     except SQLAlchemyError as e:
         raise HTTPException(status_code=404, detail="Producto no existente")
+    
+@router.get(f"{_endpoint}/{{producto_id}}/lotes/codigos", response_model=list[LoteCode])
+def read_codigos_de_lote_endpoint(
+    producto_id: int,
+    db: Session = Depends(get_db)
+):
+    try:
+        return read_lotes_by_producto_id(db, producto_id=producto_id)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except NoResultFound:
+        raise HTTPException(status_code=404, detail="El producto no contiene lotes")
+    except SQLAlchemyError as e:
+        raise HTTPException(status_code=500, detail="Error interno de base de datos")
 
 @router.put(f"{_endpoint}/{{producto_id}}", response_model=ProductoRead)
 def update_producto_endpoint(

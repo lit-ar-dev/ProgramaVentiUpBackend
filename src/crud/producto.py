@@ -3,6 +3,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError
 from crud.marca import create_marca, read_marca_by_nombre
 from crud.unidad_de_medida import read_unidad_de_medida_by_nombre
+from models.lote import Lote
 from models.precio import Precio
 from models.producto import Producto
 from schema.marca import MarcaCreate
@@ -57,6 +58,15 @@ def read_producto_by_id(db: Session, producto_id: int):
     
 def read_producto_by_codigo(db: Session, codigo: str):
     return db.query(Producto).filter(Producto.codigo == codigo).first()
+
+def read_lotes_by_producto_id(
+    db: Session,
+    producto_id: int
+) -> list[Lote]:
+    if not db.query(Producto).filter(Producto.id == producto_id).first():
+        raise ValueError("Producto no existente")
+    
+    return db.query(Lote).filter(Lote.producto_id == producto_id).all()
     
 def update_producto(
     db: Session,
